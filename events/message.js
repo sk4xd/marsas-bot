@@ -14,4 +14,8 @@ module.exports = (client, message) => {
   if(message.content.startsWith("!marsashelp")) {
     return soundList(message);
   }
+
+  if(message.content.startsWith("!cu")) {
+    return soundList(message);
+  }
 }
