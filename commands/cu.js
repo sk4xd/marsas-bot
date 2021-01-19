@@ -3,6 +3,10 @@ module.exports = (message) => {
   const min = 0;
   const max = 100;
 
+  if (!member) {
+    return message.reply(`Quem você está tentando comer ?`)
+  }
+
   function getRandomInt(min, max) {
     min = Math.ceil(min);
     max = Math.floor(max);
