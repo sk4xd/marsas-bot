@@ -23,7 +23,7 @@ module.exports = async (message) => {
         voiceChannel.leave()
       }
     }, {
-      volume: message.content === ".rojaoestouradofodase" ? 2.0 : 0.5,
+      volume: 0.5,
     }).catch(err => {
       console.log(err)
       voiceChannel.leave();

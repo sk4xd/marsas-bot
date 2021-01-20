@@ -2,7 +2,6 @@ module.exports = [
   { name: '.capadobatiman', path: './assets/sounds/capadobatiman.aac' },
   { name: '.temquesefuder', path: './assets/sounds/temquesefudereacabo.mp3' },
   { name: '.tapanagostosa', path: './assets/sounds/tapanagostosa.mp3' },
-  { name: '.rojaoestouradofodase', path: './assets/sounds/rojaoestouradofodase.mp3' },
   { name: '.bomdia', path: './assets/sounds/bomdia.mp3' },
   { name: '.mantega', path: './assets/sounds/mantega.mpeg' },
   { name: '.naoehnemmeiodia', path: './assets/sounds/naoehnemmeiodia.mpeg' },
