@@ -4,7 +4,8 @@ module.exports = (message) => {
   const max = 100;
 
   if (!member) {
-    return message.reply(`Quem você está tentando comer ?`)
+    const name = message.content.substring(5);
+    return message.reply(`tem ${getRandomInt(min, max)}% de comer o cu de ${name}.`)
   }
 
   function getRandomInt(min, max) {
