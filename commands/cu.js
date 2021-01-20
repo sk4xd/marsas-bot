@@ -4,7 +4,7 @@ module.exports = (message) => {
   const max = 100;
 
   if (!member) {
-    const name = message.content.substring(5);
+    const name = message.content.substring(4);
     return message.reply(`tem ${getRandomInt(min, max)}% de comer o cu de ${name}.`)
   }
 
