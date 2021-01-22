@@ -37,4 +37,5 @@ module.exports = [
   { name: '.metadedametadedametade', path: './assets/sounds/metadedametadedametade.ogg' },
   { name: '.chama', path: './assets/sounds/chama.ogg' },
   { name: '.zedinho', path: './assets/sounds/zedinho.ogg' },
+  { name: '.lukeromexendosohozoinho', path: './assets/sounds/lukeromexendosohozoinho.ogg' },
 ];
