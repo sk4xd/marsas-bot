@@ -3,6 +3,7 @@ const play = require("../commands/play")
 const soundList = require("../commands/showSoundList")
 const cu = require("../commands/cu")
 const calca = require("../commands/calca")
+const gege = require("../commands/gege")
 
 module.exports = (client, message) => {
   if (message.content.startsWith("!kick")) {
@@ -23,5 +24,9 @@ module.exports = (client, message) => {
 
   if(message.content.startsWith("!calça")) {
     return calca(message);
+  }
+
+  if(message.content.startsWith("!gege")) {
+    return gege(message);
   }
 }
