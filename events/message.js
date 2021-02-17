@@ -17,11 +17,11 @@ module.exports = (client, message) => {
     return soundList(message);
   }
 
-  if(message.content.startsWith("!cu" || "!CU")) {
+  if(message.content.startsWith("!cu")) {
     return cu(message);
   }
 
-  if(message.content.startsWith("!calça" || "!CALÇA")) {
+  if(message.content.startsWith("!calça")) {
     return calca(message);
   }
 }
